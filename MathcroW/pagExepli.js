@@ -1,4 +1,4 @@
-const materia = sessionStorage.getItem('materia');
+const materia = localStorage.getItem('materia');
 const jaLogou = sessionStorage.getItem('logou');
 
 window.onload = function usuarioLong(){
