@@ -4,7 +4,7 @@ const jaLogou = sessionStorage.getItem('logou');
 window.onload = function usuarioLong(){
     const usuario = localStorage.getItem('usuario');
 
-    document.getElementById('nome').textContent = usuario
+    document.getElementById('nome').textContent = usuario;
 
     if(materia === null || jaLogou === 'verdade'){
         return;
