@@ -26,5 +26,5 @@
 
         function planoSelecionado(qual){
             sessionStorage.setItem('materia', qual);
-            window.location.href = 'MathcroW/paginas/login.html';
+            window.location.href = 'paginas/login.html';
         }
